@@ -9,23 +9,33 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 100px;
   background-color: #39324a;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .name {
-  font-family: RobotoBold;
-  font-size: 24px;
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+  font-size: 25px;
   color: #ffffff;
+}
+
+.pronouns {
+  color: #ffffff;
+  font-family: Roboto, Arial;
 }
 
 ul {
@@ -33,7 +43,7 @@ ul {
   align-items: center;
   gap: 30px;
   list-style: none;
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -41,7 +51,84 @@ li:hover {
   text-decoration: underline;
 }
 
-.header a {
+header a {
   text-decoration: none;
+  color: #ffffff;
+}
+
+.section1 {
+  display: flex;
+  padding: 25px 0 83.2px 0;
+  background-color: #39324a;
+  justify-content: center;
+}
+
+.s1-container {
+  padding: 0 100px;
+  width: 825px;
+  min-width: 358px;
+  flex-basis: 825px;
+  display: flex;
+  flex-direction: column;
+}
+.s1-maintext {
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.s1-subtext {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #cccccc;
+}
+
+.section2 {
+  display: flex;
+  padding: 50px 100px 0;
+  justify-content: center;
+}
+
+.s2-container {
+  flex-basis: 1000px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #cccccc;
+}
+
+.s2-maintext {
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+  align-self: center;
+  font-size: 40px;
+  color: #39324a;
+}
+
+.s2-bulk {
+  display: flex;
+  justify-content: center;
+}
+
+.s2-subtext {
+  flex-basis: 500px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #39324a;
+}
+
+.me {
+  height: 400px;
+  width: 500px;
+}
+
+footer {
+  background-color: #39324a;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 32px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+footer a {
   color: #ffffff;
 }
