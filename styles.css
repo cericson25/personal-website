@@ -38,7 +38,7 @@ header {
   font-family: Roboto, Arial;
 }
 
-ul {
+header ul {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -47,7 +47,7 @@ ul {
   font-size: 18px;
 }
 
-li:hover {
+header li:hover {
   text-decoration: underline;
 }
 
@@ -118,6 +118,53 @@ header a {
 .me {
   height: 400px;
   width: 500px;
+}
+
+.log {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.log-head {
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #39324a;
+}
+
+.entry {
+  width: 800px;
+  flex: 0 1 auto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  padding: 25px;
+  color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #2d2d2d;
+}
+
+.entry h2,
+h3,
+h4 {
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error h1 {
+  font-family: RobotoBold, Arial, Helvetica, sans-serif;
+  color: #39324a;
+  font-size: 50px;
+}
+
+.error p {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #39324a;
 }
 
 footer {
